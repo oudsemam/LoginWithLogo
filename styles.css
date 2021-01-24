@@ -1,6 +1,10 @@
 body {
     font-family: 'Oswald', sans-serif;
     color: #BABAC4;
+    background-image: url("Metal background.jpeg");
+    background-color: #8ED1CD;
+    margin: 0;
+    padding: 0;
 }
 
 /* header mobile view */
@@ -8,7 +12,8 @@ header {
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 0;
+    padding: 20px;
     text-transform: uppercase;
 }
 
@@ -44,8 +49,6 @@ nav button {
     width: 100%;
     text-transform: uppercase;
 }
-
-
 
 /* dark blue #5A6175 
 lighter blue #559AD1
