@@ -41,18 +41,35 @@ a {
 }
 /* capitolize orange text with rounded button */
 nav button {
-    color: #F58B44;
+    color: #fe5783;
     border-radius: 25px;
     background-color: white;
-    border: #F58B44 2px solid;
+    border: #fe5783 2px solid;
     padding: 10px;
     width: 100%;
     text-transform: uppercase;
 }
 
-/* dark blue #5A6175 
+/* log in floater */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* white box with drop shadow in the center of area below header */
+section {
+    background-color: white;
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #800003 10px 10px 20px;
+}
+
+/* dark blue #5A6175
+red #800003 
 lighter blue #559AD1
-teal #8ED1CD
 green  #39BD59
-orange #F58B44
 Grey color #BABAC4 */
