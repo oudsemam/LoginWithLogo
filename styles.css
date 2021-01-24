@@ -3,6 +3,7 @@ body {
     color: #BABAC4;
 }
 
+/* header mobile view */
 header {
     background-color: white;
     display: flex;
@@ -28,13 +29,12 @@ li {
     padding-bottom: 10px;
 }
 
+/* remove underline and correct color */
 a {
     text-decoration: none;
-
     color: #BABAC4;
-    
 }
-
+/* capitolize orange text with rounded button */
 nav button {
     color: #F58B44;
     border-radius: 25px;
@@ -42,7 +42,10 @@ nav button {
     border: #F58B44 2px solid;
     padding: 10px;
     width: 100%;
+    text-transform: uppercase;
 }
+
+
 
 /* dark blue #5A6175 
 lighter blue #559AD1
