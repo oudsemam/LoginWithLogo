@@ -2,9 +2,10 @@ body {
     font-family: 'Oswald', sans-serif;
     color: #BABAC4;
     background-image: url("Metal background.jpeg");
-    background-color: #8ED1CD;
+    background-color: black;
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
 }
 
 /* header mobile view */
@@ -62,14 +63,105 @@ section {
     background-color: white;
     margin: 20px;
     width: 400px;
-    height: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     box-shadow: #800003 10px 10px 20px;
 }
 
-/* dark blue #5A6175
-red #800003 
-lighter blue #559AD1
-green  #39BD59
-Grey color #BABAC4 */
+h1 {
+    text-transform: initial;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+h2 a {
+    color: #fe5783;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding-top: 40px;
+    border-bottom: #BABAC4 2px solid;
+    width: 340px;
+}
+
+section form label input {
+    flex-direction: row;
+    width: 12px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: center;
+    border: 1px solid #babac4;
+    -webkit-appearance: none;
+    outline: none;
+}
+section form label input:checked {
+    background-color: gray;
+}
+
+/* changes text color for placeholders */
+input::placeholder {
+    color: #BABAC4;
+    font-size: 15px;
+}
+
+label {
+    font-size: 12px;
+}
+
+#forgot {
+    text-align: end;
+    z-index: 5;
+}
+
+section a {
+    font-size: 12px;
+    justify-content: flex-end;
+}
+
+/* aligns buttons and "or" */
+.buttons {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* slight rounded corner buttons for different sources */
+button {
+    align-items: center;
+    width: 340px;
+    color: white;
+    border:none;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 5px;
+}
+
+span {
+    font-size: 12px;
+}
+
+/* changes the background of each button */
+#login {
+    background-color: #800003;   
+}
+
+#facebook {
+    background-color:#559AD1;
+}
+
+#spotify {
+    background-color: #39BD59;
+}
