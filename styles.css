@@ -27,7 +27,6 @@ header img {
 ul {
     list-style: none;
     padding-left: 0;
-    padding-bottom: 10px;
     margin: 0;
 }
 
@@ -65,7 +64,7 @@ section {
     width: 400px;
     height: 550px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     align-items: center;
     box-shadow: #800003 10px 10px 20px;
 }
@@ -93,21 +92,6 @@ input {
     width: 340px;
 }
 
-section form label input {
-    flex-direction: row;
-    width: 12px;
-    height: 2px;
-    background-color: white;
-    border-radius: 50%;
-    vertical-align: center;
-    border: 1px solid #babac4;
-    -webkit-appearance: none;
-    outline: none;
-}
-section form label input:checked {
-    background-color: gray;
-}
-
 /* changes text color for placeholders */
 input::placeholder {
     color: #BABAC4;
@@ -116,11 +100,6 @@ input::placeholder {
 
 label {
     font-size: 12px;
-}
-
-#forgot {
-    text-align: end;
-    z-index: 5;
 }
 
 section a {
@@ -165,3 +144,6 @@ span {
 #spotify {
     background-color: #39BD59;
 }
+
+/* Desktop version */
+/* @media for screen () */
