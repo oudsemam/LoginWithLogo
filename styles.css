@@ -146,4 +146,33 @@ span {
 }
 
 /* Desktop version */
-/* @media for screen () */
+@media only screen and (min-device-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header nav ul li {
+        padding-left: 20px
+    }
+
+    nav button {
+        padding: 10px;
+        height: 50px;
+        width: 160px;
+        margin-left: 10px;
+    }
+
+}
