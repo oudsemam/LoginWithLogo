@@ -4,44 +4,47 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css" />
         <title>Cutting-Edge Steelworks, LLC.</title>
     </head>
-    <body>
-        <header>
+    <body class="photo flex column">
+        <header class="justfiy">
             <img src="CES logo.jpg" alt="CES logo" id="logo">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="#">shopping</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">for work</a></li>
-                    <li><a href="#">subscribe</a></li>
-                    <li><a href="#">log in</a></li>
+            <nav >
+                <ul class="navigation grey uppercase align">
+                    <li><a href="#" class="grey uppercase">shopping</a></li>
+                    <li><a href="#" class="grey uppercase">blog</a></li>
+                    <li><a href="#"class="grey uppercase">for work</a></li>
                 </ul>
-                <button class="orange">sign up for free</button>
+                <ul>    
+                    <li><a href="#" class="grey uppercase">subscribe</a></li>
+                    <li><a href="app.html" class="grey uppercase">log in</a></li>
+                </ul>
+                <button class="red uppercase align">sign up for free</button>
             </nav>
         </header>
-        <main>
-            <section>
-                <h1>Log in</h1>
+        <main class="align justify">
+            <section class="align justify">
+                <h1 class="grey capitol">Log in</h1>
 
-                <h2>new to Cutting-Edge Steelworks? <a href="#" class="orange">sign up for free</a></h2>
+                <h2 class="grey uppercase">new to Cutting-Edge Steelworks? <a href="#" class="red uppercase">sign up for free</a></h2>
 
-                <form>
-                    <ul>
-                        <li><input type="email" placeholder="Email address" id="email"></li>
-                        <li><input type="password" placeholder="Password"></li>
-                        <li><input type="checkbox" name="Remeber" id="remember"/> <label for="remember">Remeber me</label></li>
-                        <li><span id="forgot"><a href="#">forgot?</a></span></li>
-                    </ul>
+                <form class="grey">
+                    <input type="email" placeholder="Email address" class="grey capitol">
+                    <input type="password" placeholder="Password" class="grey capitol justfiy">
+                    <div id="forgot">
+                        <input type="checkbox" name="Remeber" class="grey uppercase"/>
+                        <label for="remember" class="grey uppercase">Remeber me</label>
+                    </div>
+                    <span id="forgot"><a href="#" class="grey uppercase">forgot?</a></span>
+                    <button class="buttons white uppercase" id="login">log in</button>
                 </form>
 
-                <div class="buttons">
-                    <button id="login">log in</button>
-                    <span>or</span>
-                    <button id="facebook">log in with facebook</button>
-                    <button id="spotify"> log in with spotify</button>
+                <div class="buttons ">
+                    <span class="grey uppercase">or</span>
+                    <button class="white uppercase" id="facebook">log in with facebook</button>
+                    <button class="white uppercase" id="spotify"> log in with spotify</button>
                 </div>
             </section>
         </main>
