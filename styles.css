@@ -128,8 +128,8 @@ header {
 }
 
 header img {
-    height: 50px;
-    width: 200px;
+    max-height: 50px;
+    max-width: 200px;
 }
 
 ul {
