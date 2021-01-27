@@ -67,15 +67,53 @@
     justify-content: end;
 }
 
+.type {
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #BABAC4 2px solid;
+    width: 340px;
+}
+
+/* IDs */
+#checks {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#forgot {
+    float: right;
+}
+
 #sideNav {
     visibility: hidden;
+}
+
+/* changes the background of each button */
+#login {
+    background-color: #800003;   
+}
+
+
+#facebook {
+    background-color:#559AD1;
+}
+
+#spotify {
+    background-color: #39BD59;
 }
 
 /* specifics for everything else */
 /* header mobile view */
 html {
     height: 100vh;
+    width: 100%;
 }
+
 body {
     font-family: 'Oswald', sans-serif;
     width: 100%;
@@ -84,11 +122,9 @@ body {
 
 header {
     background-color: white;
-    display: flex;
     flex-direction: column;
     border-bottom: #BABAC4 4px solid;
     padding: 20px;
-    width: 100%;
 }
 
 header img {
@@ -100,6 +136,10 @@ ul {
     list-style: none;
     padding-left: 0;
     margin: 0;
+}
+
+header nav ul:last-child {
+    padding-left: 40px;
 }
 
 /* remove underline and correct color */
@@ -129,9 +169,7 @@ main {
 section {
     background-color: white;
     width: 400px;
-    height: 450px;
-    display: flex;
-    flex-flow: column;
+    height: 480px;
     box-shadow: #800003 10px 10px 20px;
 }
 
@@ -144,16 +182,6 @@ h1 {
 h2 {
     font-size: 12px;
     padding-bottom: 20px;
-}
-
-input {
-    display: flex;
-    align-items: center;
-    border: none;
-    padding-top: 40px;
-    padding-bottom: ;
-    border-bottom: #BABAC4 2px solid;
-    width: 340px;
 }
 
 /* changes text color for placeholders */
@@ -191,20 +219,6 @@ button {
 
 span {
     font-size: 12px;
-}
-
-/* changes the background of each button */
-#login {
-    background-color: #800003;   
-}
-
-
-#facebook {
-    background-color:#559AD1;
-}
-
-#spotify {
-    background-color: #39BD59;
 }
 
 /* Desktop version */
