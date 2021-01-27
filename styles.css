@@ -163,6 +163,7 @@ nav button {
 /* log in floater */
 main {
     display: flex;
+    height: 100%;
 }
 
 /* white box with drop shadow in the center of area below header */
@@ -254,7 +255,7 @@ span {
     #sideNav {
         visibility: visible;
         width: 150px;
-        height: 100vh;
+        height: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
     }
